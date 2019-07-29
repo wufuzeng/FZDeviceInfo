@@ -8,6 +8,8 @@
 
 #import "FZViewController.h"
 
+#import "FZDeviceInfo.h"
+
 @interface FZViewController ()
 
 @end
@@ -17,13 +19,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	 
+    NSLog(@"%@",[FZDeviceInfo type]);
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

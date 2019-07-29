@@ -1,0 +1,6 @@
+framework module FZDeviceInfo {
+  umbrella header "FZDeviceInfo-umbrella.h"
+
+  export *
+  module * { export * }
+}

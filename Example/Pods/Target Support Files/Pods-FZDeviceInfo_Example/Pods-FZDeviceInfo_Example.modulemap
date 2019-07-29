@@ -1,0 +1,6 @@
+framework module Pods_FZDeviceInfo_Example {
+  umbrella header "Pods-FZDeviceInfo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

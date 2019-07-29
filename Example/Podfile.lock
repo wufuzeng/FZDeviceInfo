@@ -1,0 +1,16 @@
+PODS:
+  - FZDeviceInfo (0.0.1)
+
+DEPENDENCIES:
+  - FZDeviceInfo (from `../`)
+
+EXTERNAL SOURCES:
+  FZDeviceInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZDeviceInfo: 2bb8cae06dc3e83692455c2479fb98ee6aa6947f
+
+PODFILE CHECKSUM: c2beb696493d86d53a34792dfaa33502ff03f41b
+
+COCOAPODS: 1.7.4

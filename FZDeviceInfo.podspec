@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZDeviceInfo'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of FZDeviceInfo.'
 
 # This description is used to generate tags and improve search results.
@@ -29,8 +29,9 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'FZDeviceInfo/Classes/**/*'
+  
+  s.public_header_files = 'FZDeviceInfo/Classes/*.h'
+  s.source_files = 'FZDeviceInfo/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'FZDeviceInfo' => ['FZDeviceInfo/Assets/*.png']
