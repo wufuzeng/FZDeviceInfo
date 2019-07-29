@@ -6,9 +6,11 @@
 //
 
 #import "FZDeviceInfo.h"
-#import <sys/utsname.h> //设备型号
+//设备型号
+#import <sys/utsname.h>
+//设备
 #import <UIkit/UIDevice.h>
-
+ 
 
 @implementation FZDeviceInfo
 

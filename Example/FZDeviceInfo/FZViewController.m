@@ -22,6 +22,6 @@
 	 
     NSLog(@"%@",[FZDeviceInfo type]);
 }
-
+ 
 
 @end
